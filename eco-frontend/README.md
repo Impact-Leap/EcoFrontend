@@ -1,8 +1,45 @@
-# React + Vite
+# EcoTrack: Environmental Carbon Footprint Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+EcoTrack is a web application designed to help users calculate and track their environmental carbon footprint. The application uses a trained machine learning model to provide accurate carbon footprint estimates based on user inputs. It also offers insights and recommendations to help users reduce their carbon emissions.
 
-Currently, two official plugins are available:
+## Features
+User Authentication: Secure user login through Google OAuth.
+Carbon Footprint Calculation: Real-time calculation based on user-provided data.
+Data Visualization: Interactive charts to display carbon footprint insights.
+Recommendations: Personalized suggestions to help users lower their carbon footprint.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+Prerequisites
+Python 3.x
+Streamlit
+Pandas
+Numpy
+Scikit-learn
+
+### Setup Instructions
+1. **Clone the repository**:
+
+git clone https://github.com/Peishyy/Eco-Backend.git
+
+2. **Navigate to the project directory**:
+
+   cd Eco-Backend
+
+3. **Install the required packages**:
+
+   ```sh
+   pip install -r requirements.txt
+   ```
+4. **Run the application**:
+   ```sh
+   streamlit run app.py
+   ```
+
+## Usage
+Open the application in your browser.
+Log in using your Google account.
+Enter the required data to calculate your carbon footprint.
+View the results and insights provided by the application.
+Follow the recommendations to reduce your carbon emissions.
+You should now have the EcoTrack application up and running.
+
