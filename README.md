@@ -19,11 +19,11 @@ Scikit-learn
 ### Setup Instructions
 1. **Clone the repository**:
 
-git clone https://github.com/Peishyy/Eco-Backend.git
+git clone https://github.com/Peishyy/Ecofrontend.git
 
 2. **Navigate to the project directory**:
 
-   cd Eco-Backend
+   cd Ecofrontend
 
 3. **Install the required packages**:
 
@@ -32,7 +32,7 @@ git clone https://github.com/Peishyy/Eco-Backend.git
    ```
 4. **Run the application**:
    ```sh
-   streamlit run app.py
+   npm run dev
    ```
 
 ## Usage
